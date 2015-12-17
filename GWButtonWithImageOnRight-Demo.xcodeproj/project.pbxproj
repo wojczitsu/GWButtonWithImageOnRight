@@ -13,6 +13,8 @@
 		D41A88C21C22ED9C007DEB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41A88C01C22ED9C007DEB94 /* Main.storyboard */; };
 		D41A88C41C22ED9C007DEB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41A88C31C22ED9C007DEB94 /* Assets.xcassets */; };
 		D41A88C71C22ED9C007DEB94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41A88C51C22ED9C007DEB94 /* LaunchScreen.storyboard */; };
+		D41A88D11C22EEE1007DEB94 /* GWButtonWithImageOnRight.m in Sources */ = {isa = PBXBuildFile; fileRef = D41A88D01C22EEE1007DEB94 /* GWButtonWithImageOnRight.m */; };
+		D41A88D31C22EFD0007DEB94 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D41A88D21C22EFD0007DEB94 /* arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		D41A88C31C22ED9C007DEB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D41A88C61C22ED9C007DEB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D41A88C81C22ED9C007DEB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41A88CF1C22EEE1007DEB94 /* GWButtonWithImageOnRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWButtonWithImageOnRight.h; sourceTree = "<group>"; };
+		D41A88D01C22EEE1007DEB94 /* GWButtonWithImageOnRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWButtonWithImageOnRight.m; sourceTree = "<group>"; };
+		D41A88D21C22EFD0007DEB94 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 		D41A88AB1C22ED9B007DEB94 = {
 			isa = PBXGroup;
 			children = (
+				D41A88CE1C22EEE1007DEB94 /* GWButtonWithImageOnRight */,
 				D41A88B61C22ED9C007DEB94 /* GWButtonWithImageOnRight-Demo */,
 				D41A88B51C22ED9C007DEB94 /* Products */,
 			);
@@ -58,6 +64,7 @@
 		D41A88B61C22ED9C007DEB94 /* GWButtonWithImageOnRight-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D41A88D21C22EFD0007DEB94 /* arrow.png */,
 				D41A88BA1C22ED9C007DEB94 /* AppDelegate.h */,
 				D41A88BB1C22ED9C007DEB94 /* AppDelegate.m */,
 				D41A88BD1C22ED9C007DEB94 /* ViewController.h */,
@@ -77,6 +84,15 @@
 				D41A88B81C22ED9C007DEB94 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D41A88CE1C22EEE1007DEB94 /* GWButtonWithImageOnRight */ = {
+			isa = PBXGroup;
+			children = (
+				D41A88CF1C22EEE1007DEB94 /* GWButtonWithImageOnRight.h */,
+				D41A88D01C22EEE1007DEB94 /* GWButtonWithImageOnRight.m */,
+			);
+			path = GWButtonWithImageOnRight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +155,7 @@
 				D41A88C71C22ED9C007DEB94 /* LaunchScreen.storyboard in Resources */,
 				D41A88C41C22ED9C007DEB94 /* Assets.xcassets in Resources */,
 				D41A88C21C22ED9C007DEB94 /* Main.storyboard in Resources */,
+				D41A88D31C22EFD0007DEB94 /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D41A88BF1C22ED9C007DEB94 /* ViewController.m in Sources */,
+				D41A88D11C22EEE1007DEB94 /* GWButtonWithImageOnRight.m in Sources */,
 				D41A88BC1C22ED9C007DEB94 /* AppDelegate.m in Sources */,
 				D41A88B91C22ED9C007DEB94 /* main.m in Sources */,
 			);
